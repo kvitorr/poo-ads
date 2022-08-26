@@ -11,25 +11,15 @@ class Personagem {
     habilidade: number = 0;
     inteligencia: number = 0;
 
-    estudar(): number{
-        return this.inteligencia += 2;
-    }
+    estudar(): number{ return this.inteligencia += 2; }
 
-    estudarMagia(): number{
-        return this.habilidade++;
-    }
+    estudarMagia(): number{ return this.habilidade++; }
 
-    treinarCorpo(): number {
-        return this.ataque++, this.resistencia++;
-    }
+    treinarCorpo(): number { return this.ataque++, this.resistencia++; }
 
-    usarPocaoHp(): number{
-        return this.hp += 50;
-    }
+    usarPocaoHp(): number{ return this.hp += 50; }
 
-    usarPocaoMana(): number{
-        return this.mana += 50;
-    }
+    usarPocaoMana(): number{ return this.mana += 50; }
 
     atacar(){}
     fugir(){}

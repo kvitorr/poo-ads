@@ -17,23 +17,10 @@ uma idade... etc. Enquanto os métodos são comportamentos/ações realizadas, t
 
 classe Pessoa {
     -----> Atributos
-    Nome
-    Endereço
-    Data de Nascimento
-    Telefone
-    Idade
-    Altura
+    Nome, Endereço, Data de Nascimento, Telefone, Idade, Altura, Sexo
 
     -----> Métodos
-    Trabalhar()
-    Dormir()
-    Caminhar()
-    Comer()
-    Sorrir()
-    Matricular()
-    Pagar()
-    Estudar()
-    Cadastrar()
+    Trabalhar(), Dormir(), Caminhar(), Comer(), Estudar()
 }
 
 
