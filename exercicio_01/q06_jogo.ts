@@ -12,13 +12,9 @@ class Personagem {
     inteligencia: number = 0;
 
     estudar(): number{ return this.inteligencia += 2; }
-
     estudarMagia(): number{ return this.habilidade++; }
-
     treinarCorpo(): number { return this.ataque++, this.resistencia++; }
-
     usarPocaoHp(): number{ return this.hp += 50; }
-
     usarPocaoMana(): number{ return this.mana += 50; }
 
     atacar(){}
