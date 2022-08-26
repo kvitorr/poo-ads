@@ -57,7 +57,7 @@ e) Etnia: Sistema do IBGE.
 
 
 
-4. a) Seria interessante facilitaria a identificação da "Pessoa" que é dona da conta.  
+4. a) Seria interessante, facilitaria a identificação da "Pessoa" que é dona da conta.  
 
 b) Sim, seria interessante pois conseguiríamos encontrar todas as contas que estão no nome de uma determinada 
 pessoa facilmente. O elemento que melhor representaria o conjunto de contas de uma pessoa é o vetor, pois essa 
