@@ -2,13 +2,18 @@ Programação Orientada a Objetos - Exercício 01
 Aluno: Vitor Araujo
 
 
-1. Uma classe é um modelo de uma entidade física (coisas tangíveis, existentes e visíveis no mundo, ex: banco) ou de uma entidade conceitual (representações do campo das ideias, ex: uma venda). O objeto é a instanciação de uma classe, ou seja, se temos uma classe Jogos, um objeto dessa classe poderia ser FIFA, League of legends ou Resident Evil. 
+1. Uma classe é um modelo de uma entidade física (coisas tangíveis, existentes e visíveis no mundo, ex: banco)
+ou de uma entidade conceitual (representações do campo das ideias, ex: uma venda). O objeto é a instanciação 
+de uma classe, ou seja, se temos uma classe Jogos, um objeto dessa classe poderia ser FIFA, League of legends 
+ou Resident Evil. 
 
 
 
-2. Um objeto é composto por atributos e métodos. Os atributos são suas características e os métodos são seus comportamentos/ações.  
+2. Um objeto é composto por atributos e métodos. Os atributos são suas características e os métodos são seus 
+comportamentos/ações.  
 
-Na classe Pessoa, os atributos são as características de uma pessoa. Cada pessoa possui um nome, uma altura, uma idade... etc. Enquanto os métodos são comportamentos/ações realizadas, todas as pessoas comem, dormem... etc.
+Na classe Pessoa, os atributos são as características de uma pessoa. Cada pessoa possui um nome, uma altura, 
+uma idade... etc. Enquanto os métodos são comportamentos/ações realizadas, todas as pessoas comem, dormem... etc.
 
 classe Pessoa {
     -----> Atributos
@@ -39,7 +44,8 @@ a) Peso: Área da saúde/Hospital, em algum sistema que calcule IMC.
 
 b) Tipo de CNH: Sistema do Detran.
 
-c) Tipo Sanguíneo: Área da saúde/Hospital, armazenamento de sangue para doação. As bolsas de sangue precisam conter essa informação.
+c) Tipo Sanguíneo: Área da saúde/Hospital, armazenamento de sangue para doação. As bolsas de sangue precisam 
+conter essa informação.
 
 d) Habilidade destra: Educação, disponibilidade de equipamentos específicos para pessoas destras.
 
@@ -53,7 +59,9 @@ e) Etnia: Sistema do IBGE.
 
 4. a) Seria interessante facilitaria a identificação da "Pessoa" que é dona da conta.  
 
-b) Sim, seria interessante pois conseguiríamos encontrar todas as contas que estão no nome de uma determinada pessoa facilmente. O elemento que melhor representaria o conjunto de contas de uma pessoa é o vetor, pois essa estrutura de dados armazena valores de um mesmo tipo, nesse caso, do tipo Conta. 
+b) Sim, seria interessante pois conseguiríamos encontrar todas as contas que estão no nome de uma determinada 
+pessoa facilmente. O elemento que melhor representaria o conjunto de contas de uma pessoa é o vetor, pois essa 
+estrutura de dados armazena valores de um mesmo tipo, nesse caso, do tipo Conta. 
 
 
 
