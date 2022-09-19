@@ -6,10 +6,11 @@
     Um bom caso de uso para any é o parsing de JSON:
     const myObject = JSON.parse("{}");
 
-    O método JSON.parse() analisa uma string JSON, construindo o valor 
-    ou objeto JavaScript descrito pela string. Portanto, pode retornar
+    O método JSON.parse() analisa uma string JSON, retornando o valor 
+    ou objeto JavaScript descrito pela string. Esse método pode retornar
     um objeto, array, string, number, boolean ou null correspondente
-    ao texto JSON fornecido.  
+    ao texto JSON fornecido.
+    Por isso, é interessante a utilização do tipo any.
 
 
 Referência: 
