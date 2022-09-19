@@ -1,3 +1,4 @@
+"use strict";
 //"strictNullChecks": false   
 /*
 let numero: number= undefined;

@@ -1,3 +1,4 @@
+"use strict";
 var nome = "Ely";
 var payment_time = 120.56;
 var language = 'TypeScript';
