@@ -1,11 +1,13 @@
-var users = [
-    { name: "Oby", age: 12 },
-    { name: "Heera", age: 32 },
-];
-var loggedInUser = users.find(function (u) { return u.name === loggedInUsername; });
-console.log(loggedInUser.age); // Possivelmente, o objeto é 'nulo'.
+//"strictNullChecks": false   
 /*
-if(loggedInUser != null) { // Só printará se o objeto não for nulo.
-    console.log(loggedInUser.age);
-}
-*/ 
+let numero: number= undefined;
+console.log(numero) //Nenhum erro
+*/
+//"strictNullChecks": true   
+/*
+let numero: number = undefined; //O tipo 'undefined' não pode ser atribuído ao tipo 'number'.
+console.log(numero)
+*/
+//"strictNullChecks": true              
+var numero = undefined; //Nenhum erro
+console.log(numero);
