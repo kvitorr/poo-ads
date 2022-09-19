@@ -1,0 +1,9 @@
+
+
+
+6. Poderíamos dizer que a tipagem do TypeScript é fraca por uma variável do tipo
+number aceitar tanto inteiros como ponto flutuante?
+
+    Não, já que todos os números em Typescript são floating point ou "BigIntegers". 
+    Ou seja, apesar de estarmos recebendo um valor inteiro, estamos trabalhando com 
+    ele sendo floating point, não havendo, portanto, conversão. 

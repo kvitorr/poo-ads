@@ -1,0 +1,13 @@
+
+
+
+4. Pesquise e exemplifique com um exemplo porque dizemos que a linguagem C,
+mesmo tendo tipagem estática, possui tipagem fraca.
+
+    Apesar de ser uma linguagem estática, possui uma tipagem fraca pois 
+    podemos definir tipos para variáveis e trabalhar com elas, como se 
+    fossem de outro tipo. Por exemplo, podemos:
+    
+    a) Gravar um float e acessar como se fosse um int
+    b) Considerar 0 como falso e 1 como verdadeiro em operações
+    que exigem um booleano

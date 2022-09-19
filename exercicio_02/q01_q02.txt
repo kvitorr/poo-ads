@@ -1,0 +1,27 @@
+
+
+
+1. Qual a diferença entre tipagem dinâmica e tipagem estática?
+    
+    Nas linguagens estaticamente tipadas é necessário informar
+    explicitamente o tipo de cada dado utilizado no sistema. E
+    uma vez definido o tipo, as variáveis estão restritas ao 
+    tipo declarado. 
+
+    Já nas linguagens dinamicamente tipadas, é observa do qual
+    é o tipo de cada dado que está sendo declarado do código e,
+    a partir disso, determina a tipagem. 
+
+
+2. Qual o principal problema do uso de tipagem dinâmica?
+
+    O principal problema é que não existe uma checagem dos tipos,
+    podendo ocasionar erros durante a execução do programa.
+    Por exemplo, em python, quando utilizamos a função input(),
+    estamos recebendo um valor do tipo string, e caso seja 
+    necessário fazer algum tipo de cálculo com essa variável,
+    primeiro temos que fazer um casting, convertendo a string
+    para int ou float, por exemplo. 
+
+    
+
