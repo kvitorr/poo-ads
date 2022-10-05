@@ -1,0 +1,27 @@
+Questão 1
+    Resposta:
+        Haverá problema de compilação pois o atributo quantReservas
+        não foi inicializado. Então, se eu criar um objeto da classe
+        Hotel e não inicializar diretamente esse atributo, ainda é
+        possível chamar o método adicionarReserva(), que retornará
+        undefined. 
+
+        Além disso, falta o this, dentro do método adicionarReserva(): this.quantReservas++;
+
+
+Questão 4
+    Resposta:
+        a) O resultado dos prints serão 90, pois estamos fazendo com que
+        as variáveis c1, c2 e c3 apontem para o mesmo objeto, através
+        das expressões: c1 = c2 e c3 = c1. 
+
+        b) O objeto será removido da memória quando o Garbage Collector 
+        atuar, já que esse objeto não possui mais referência.
+
+Questão 10
+    Resposta:
+        A mais correta seria a de retornar códigos de erro ou acerto, já que
+        seria possível saber se a ação realizada pelo usuário foi sucedida ou
+        não, dessa forma, podemos realizar alterações ou entender melhor o problema.
+        Sendo assim, o usuário ficaria ciente que a ação realizada no software 
+        deu certo ou não.
