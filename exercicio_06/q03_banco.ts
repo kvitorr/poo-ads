@@ -1,12 +1,12 @@
 
 import { Conta } from "./q04_conta";
 
-class Banco {
+export class Banco {
 
     private contas: Conta[] = [];
 
     public inserir(c: Conta): boolean{    
-        let contaAtual = c;
+        let contaAtual: Conta = c;
         if(this.consultarIndice(contaAtual.numero) == -1){
             this.contas.push(contaAtual);
             return true;
@@ -38,7 +38,7 @@ class Banco {
     }
 
     public alterar(c: Conta): boolean {
-        let indice = this.consultarIndice(c.numero);
+        let indice: number = this.consultarIndice(c.numero);
         if(indice != -1){
             this.contas[indice] = c;
             return true;
@@ -95,7 +95,7 @@ class Banco {
 
     public dinheiroTotalBanco(): number{
         const qtdDeContas: number = this.qtdDeContas()
-        let saldoTotal = 0;
+        let saldoTotal: number = 0;
         for(let i: number = 0; i < qtdDeContas; i++){
             saldoTotal += this.contas[i].saldo;
         }

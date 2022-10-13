@@ -31,7 +31,7 @@ class Hora {
     }
 }
 let hora1 = new Hora(15, 24, 36);
-console.log(hora1.hora);
-console.log(hora1.minutos);
-console.log(hora1.segundos);
-console.log(hora1.toString());
+console.log(hora1.hora); //15
+console.log(hora1.minutos); //24
+console.log(hora1.segundos); //36
+console.log(hora1.toString()); //15:24:36

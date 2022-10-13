@@ -15,6 +15,7 @@ let calc = new Calculadora(1, 2);
 console.log(calc.multiplicacao()); //2
 console.log(calc.soma()); //3
 /*
-    Aparece que o atributo é privado e só é acessível
-    dentro da classe Calculadora.
+    Quando tentamos acessar um atributo privado, recebemos
+    uma mensagem de erro dizendo que o atributo é privado
+    e só é acessível dentro da classe Calculadora.
 */
