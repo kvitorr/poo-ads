@@ -1,0 +1,7 @@
+Questão 03, letra c:
+
+    Foi necessário criar os getters da classe Calculadora, para que 
+    fosse possível utilizar seus atributos em suas classes filhas. 
+    Isso aconteceu porque os atributos da classe Calculadora estão
+    o modificador de acesso private, portanto só podem ser acessados
+    diretamente dentro da própria classe.
