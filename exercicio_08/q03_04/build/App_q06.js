@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Banco_1 = require("./Banco");
+const Conta_1 = require("./Conta");
+let bradesco = new Banco_1.Banco();
+let conta1 = new Conta_1.Conta("001", 100);
+let conta2 = new Conta_1.Conta("002", 200);
+bradesco.inserir(conta1);
+bradesco.inserir(conta2);
+bradesco.transferir(conta1.numero, conta2.numero, 100);
+console.log(conta1);
+console.log(conta2);
+//let conta3: Conta = new Conta("003", -51);
+//conta1.depositar(-5);
+//conta1.sacar(-6);

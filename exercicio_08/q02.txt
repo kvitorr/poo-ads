@@ -1,0 +1,21 @@
+2) Explique por que cada um dos 3 métodos acima possui limitações de uso.
+
+Resposta:
+        Os três tipos mais comuns de tratamento de erros são:
+
+        1) Desconsiderar operação
+            Ficamos na incerteza do sucesso ou não da operação.
+
+        2) Exibir mensagem de erro
+            Ficamos atrelados à interface de texto, caso utilizassemos
+            uma interface gráfica a mensagem não seria notada.
+            Por exemplo, em aplicações web e mobile.
+        
+        3) Retornar um código de erro
+            É necessário testar o valor de retorno para saber o que 
+            houve, dessa forma, aumentariámos a complexidade do nosso 
+            código.
+            Além disso, teríamos que criar um documento com os códigos
+            de erro do programa. Portanto, não é uma opção viável.
+
+            
