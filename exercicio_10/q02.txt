@@ -1,0 +1,5 @@
+2. Explique o que é necessário para que a compilação da ClasseConcreta ocorra
+sem erros:
+
+    É necessário que a ClasseConcreta implemente o método
+    imprimaAlgo(): void; da classe abstrata. 

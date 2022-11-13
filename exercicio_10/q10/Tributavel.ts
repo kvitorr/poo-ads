@@ -1,0 +1,3 @@
+interface Tributavel {
+    calculaTributos(): number;
+}

@@ -1,0 +1,7 @@
+1. Podemos instanciar classes abstratas? Justifique
+
+    Classe abstrata é uma classe que apenas idealiza de forma
+    genérica um tipo. Nesse contexto, não existe uma motivação
+    para sua instanciação já que para o sistema, o que importa
+    são as classes que herdarão seus atributos e métodos e,
+    consequentemente, serão instanciadas. 

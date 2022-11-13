@@ -1,0 +1,9 @@
+5. Não podemos aplicar o operador new em FiguraGeometrica, mas por que então
+podemos realizar a seguinte instanciação:
+
+    let figuras: FiguraGeometrica[] = new Array();
+
+    Conseguimos porque não estamos instanciando um objeto FiguraGeometrica mas 
+    estamos criando um array composto por elementos do tipo FiguraGeometrica.
+    Nesse caso, podemos instanciar em seus slots classes concretas que herdem da classe
+    FiguraGeometrica.
