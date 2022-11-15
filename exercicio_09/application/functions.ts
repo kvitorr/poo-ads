@@ -32,13 +32,13 @@ export function inserir(): void{
             break
         case "1":
             console.log("Conta Poupança");
-            const taxa: number = Number(input("Taxa de juros"));
+            const taxa: number = lerNumero("Taxa de juros");
             conta = new ContaPoupanca(numero, saldo, taxa);
             b.inserir(conta);
             break
         case "2":
             console.log("Conta Imposto");
-            const taxaDesconto: number = Number(input("Taxa de juros"));
+            const taxaDesconto: number = lerNumero("Taxa de juros");
             conta = new ContaImposto(numero, saldo, taxaDesconto);
             b.inserir(conta);
             break

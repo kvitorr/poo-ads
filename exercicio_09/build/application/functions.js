@@ -29,13 +29,13 @@ function inserir() {
             break;
         case "1":
             console.log("Conta Poupança");
-            const taxa = Number(input("Taxa de juros"));
+            const taxa = lerNumero("Taxa de juros");
             conta = new ContaPoupanca_js_1.ContaPoupanca(numero, saldo, taxa);
             b.inserir(conta);
             break;
         case "2":
             console.log("Conta Imposto");
-            const taxaDesconto = Number(input("Taxa de juros"));
+            const taxaDesconto = lerNumero("Taxa de juros");
             conta = new ContaImposto_js_1.ContaImposto(numero, saldo, taxaDesconto);
             b.inserir(conta);
             break;
