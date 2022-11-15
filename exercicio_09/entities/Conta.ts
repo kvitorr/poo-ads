@@ -6,7 +6,11 @@ export class Conta{
     private _saldo: number = 0;
 
     constructor(numero: string, saldo: number){
-        this.depositar(saldo);
+        if(saldo < 0){
+            throw new ValorInvalidoError("Valor inválido.")
+        }
+        
+        this._saldo = saldo;
         this._numero = numero;
     }
 

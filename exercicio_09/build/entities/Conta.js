@@ -5,7 +5,10 @@ const ValorInvalidoError_1 = require("../exceptions/ValorInvalidoError");
 class Conta {
     constructor(numero, saldo) {
         this._saldo = 0;
-        this.depositar(saldo);
+        if (saldo < 0) {
+            throw new ValorInvalidoError_1.ValorInvalidoError("Valor inválido.");
+        }
+        this._saldo = saldo;
         this._numero = numero;
     }
     get saldo() {

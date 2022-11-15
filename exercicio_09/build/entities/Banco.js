@@ -97,6 +97,14 @@ class Banco {
             throw new PoupancaInvalidaError_js_1.PoupancaInvalidaError("A conta não é poupança.");
         }
     }
+    mostrarContas() {
+        console.log("Contas: \n");
+        for (let i = 0; i < this.qtdDeContas(); i++) {
+            console.log(`Número da conta: ${this.contas[i].numero}`);
+            console.log(`Saldo: ${this.contas[i].saldo}`);
+            console.log();
+        }
+    }
 }
 exports.Banco = Banco;
 //Polimorfismo é útil para a criação de um vetor da superclasse, dessa forma
