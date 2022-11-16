@@ -1,4 +1,8 @@
-export class Quadrado implements FiguraGeometrica {
+import { Comparavel } from "./Comparavel";
+import { FiguraGeometrica } from "./FiguraGeometrica";
+
+
+export class Quadrado implements FiguraGeometrica, Comparavel {
     private _altura: number;
     private _base: number;
 
@@ -15,18 +19,18 @@ export class Quadrado implements FiguraGeometrica {
         return this._base;
     }
 
-    public area(): number {
+    public calcularArea(): number {
         return this._altura * this._base;
     }
 
-    public perimetro(): number {
+    public calcularPerimetro(): number {
         return 2*(this._base + this._altura);
     }
 
     public comparar(quadrado: Quadrado){
-        if(this.area() < quadrado.area()){
+        if(this.calcularArea() < quadrado.calcularArea()){
             return -1;
-        } else if (this.area() == quadrado.area()){
+        } else if (this.calcularArea() == quadrado.calcularArea()){
             return 0;
         } else {
             return 1;

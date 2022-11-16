@@ -1,14 +1,16 @@
+import { Tributavel } from "./Tributavel";
+
 export class AuditoriaInterna {
-    tributaveis: Tributavel[] = [];
+    private _tributaveis: Tributavel[] = [];
 
     public adicionar(tributavel: Tributavel) {
-        this.tributaveis.push(tributavel);
+        this._tributaveis.push(tributavel);
     }
 
     public calcularTributos(): number {
         let soma = 0;
-        for (let i = 0; i < this.tributaveis.length; i++) {
-            soma += this.tributaveis[i].calculaTributos();
+        for (let i = 0; i < this._tributaveis.length; i++) {
+            soma += this._tributaveis[i].calculaTributos();
         }
         return soma;
     }

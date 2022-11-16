@@ -8,8 +8,8 @@ class Application {
         let triangulo2: Triangulo = new Triangulo(2, 1, 2, 1);
         
         console.log("Triangulo: ")
-        console.log(triangulo.area())
-        console.log(triangulo2.area())
+        console.log(triangulo.calcularArea())
+        console.log(triangulo2.calcularArea())
 
         console.log(triangulo.comparar(triangulo2))
         console.log("")
@@ -19,8 +19,8 @@ class Application {
         let quadrado: Quadrado = new Quadrado(2, 2);
         let quadrado2: Quadrado = new Quadrado(1, 1);
 
-        console.log(quadrado.area())
-        console.log(quadrado2.area())
+        console.log(quadrado.calcularArea())
+        console.log(quadrado2.calcularArea())
 
         console.log(quadrado.comparar(quadrado2))
         console.log("")
@@ -30,8 +30,8 @@ class Application {
         let retangulo: Retangulo = new Retangulo(3, 2);
         let retangulo2: Retangulo = new Retangulo(2, 1);
 
-        console.log(retangulo.area())
-        console.log(retangulo2.area())
+        console.log(retangulo.calcularArea())
+        console.log(retangulo2.calcularArea())
 
         console.log(retangulo.comparar(retangulo2))
     }

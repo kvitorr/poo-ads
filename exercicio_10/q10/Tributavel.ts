@@ -1,3 +1,3 @@
-interface Tributavel {
+export interface Tributavel {
     calculaTributos(): number;
 }

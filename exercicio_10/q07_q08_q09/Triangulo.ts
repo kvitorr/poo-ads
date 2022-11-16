@@ -1,3 +1,6 @@
+import { Comparavel } from "./Comparavel";
+import { FiguraGeometrica } from "./FiguraGeometrica";
+
 export class Triangulo implements FiguraGeometrica, Comparavel {
     private _base: number;
     private _altura: number;
@@ -19,18 +22,18 @@ export class Triangulo implements FiguraGeometrica, Comparavel {
         return this._altura;
     }
 
-    public area(): number {
+    public calcularArea(): number {
         return this.base * this.altura/2;
     }
 
-    public perimetro(): number {
+    public calcularPerimetro(): number {
         return this._a+this._b+this._base;
     }
 
     public comparar(triangulo: Triangulo){
-        if(this.area() < triangulo.area()){
+        if(this.calcularArea() < triangulo.calcularArea()){
             return -1;
-        } else if (this.area() == triangulo.area()){
+        } else if (this.calcularArea() == triangulo.calcularArea()){
             return 0;
         } else {
             return 1;
